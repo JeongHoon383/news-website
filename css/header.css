@@ -1,0 +1,46 @@
+body{
+  padding: 0 100px;
+}
+
+@media (min-width: 1000px){
+  .bar{
+    display: none;
+  }
+}
+
+.head-title{
+  text-align: center;
+  border-bottom: 1px solid hsla(0,0%,87.46%,1);
+}
+
+.head-title svg{
+  width: 100vh;
+}
+
+.menu-div{
+  border-bottom: 2px solid black;
+}
+
+.menu-tab{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-tab li{
+  list-style: none;
+  
+}
+
+.menu-tab li a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-tab li a:hover{
+  background-color: hsla(0,0%,87.46%,1)
+}
+
+.main-section{
+  margin-top: 1px;
+  border-top: 2px solid black;
+}
