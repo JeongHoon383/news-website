@@ -22,3 +22,5 @@ const getLatestNews = async () => {
 getLatestNews();
 
 //5nmQcqMNYGNCyvUNlwucxQAyz5hPA8M18sf6CzXmlao ---> API 키
+
+
